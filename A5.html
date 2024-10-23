@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A5</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+  
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required minlength="2" maxlength="5" autocomplete="off" placeholder="Escribe tu nombre"><br><br>
+   
+    <label for="correo">correo electronico:</label>
+    <input type="text" id="correo" required minlength="2" maxlength="5" autocomplete="off" placeholder="email@ejemplo.com"><br><br>
+   
+    <label for="contraseña">Contraseña:</label>
+    <input type="text" id="contraseña" required minlength="2" maxlength="5" autocomplete="off" placeholder="contraseña de 6 a 20 caracteres"><br><br>
+   
+    <label for="edad">edad:</label>
+    <input type="text" id="edad" required minlength="2" maxlength="5" autocomplete="off" placeholder="introduce tu edad"><br><br>
+  
+    <label> pais:<select name="pais"></label>
+        <option value="1">España</option> 
+        <option value="1">Londres</option> 
+        <option value="1">Mongolia</option>
+        <option value="1">Marruecos</option>
+        <option value="1">EEUU</option>
+        </select><br><br>
+       
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color"><br><br>
+
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino"><br><br>
+        <label for="genero">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino"><br><br>
+
+        <label for="terminos">Acepto los términos:</label>
+        <input type="checkbox" id="terminos"><br><br>
+
+        <input type="submit" value="Registrarse">
+    </form>
+     
+</body>
+</html>
